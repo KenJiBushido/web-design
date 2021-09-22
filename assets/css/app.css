@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Raleway", sans-serif !important;
+  color: #8e8e8e !important;
+  letter-spacing: 1.5px !important;
+}
+
+.clr-prime {
+  color: #323232;
+}
+.clr-active {
+  color: #e6ae48;
+}
+
+.slick-slider {
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+svg {
+  width: 50px;
+  fill: #40403f;
+}
+
+.head-box .head {
+  color: #313131;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding-top: 120px;
+  margin-bottom: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.sticky .topnav {
+  background-color: #00000090 !important;
+  transition: all 0.8s ease;
+}
+
+#navbar .topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  height: 80px;
+  margin-bottom: -80px;
+  z-index: 1;
+}
+#navbar .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+#navbar .topnav a .fa-chevron-down {
+  color: #8e8e8e;
+  margin-left: 5px;
+}
+#navbar .topnav a.nav-logo {
+  font-size: 35px;
+  padding-left: 10px;
+}
+#navbar .topnav a.nav-menu:hover {
+  color: #8e8e8e;
+  transition: 0.3s ease-in-out;
+}
+#navbar .topnav .topnav-right {
+  float: right;
+}
+
+#banners {
+  position: relative;
+}
+#banners .banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#banners .banner-content .bannerHead {
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 10px;
+  font-weight: 600;
+}
+#banners .banner-content .bannerDesc {
+  color: #fff;
+}
+#banners .banner-content .choice {
+  padding-top: 15px;
+}
+#banners .banner-content .choice button {
+  border: 3px solid #fff;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+#banners .banner-content .choice button.read {
+  background-color: transparent;
+  color: #fff;
+}
+#banners .banner-content .choice button.read:hover {
+  color: #323232;
+  background: #fff;
+  transition: 0.3s ease-in-out;
+}
+#banners .banner-content .choice button.learn {
+  background-color: #fff;
+  color: #000;
+}
+
+#services {
+  padding-bottom: 100px;
+}
+#services .container .head {
+  color: #323232;
+}
+#services .container .row {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+#services .container .row .col-md-4 {
+  padding-top: 20px;
+}
+#services .container .row .col-md-4 .serviceName {
+  color: #313131;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+#numbers {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+#numbers::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url("../images/coffee.jpg") no-repeat center center;
+  background-size: cover;
+}
+#numbers .container .row {
+  position: relative;
+}
+#numbers .container .row .col-md-3 {
+  margin-top: 58px;
+  margin-bottom: 58px;
+}
+#numbers .container .row .col-md-3 .numb {
+  font-size: 50px;
+}
+
+#greatWork .tab-pane .row {
+  width: 100%;
+  margin: 0;
+}
+#greatWork .tab-pane .row .col-md-3 {
+  padding: 0 !important;
+}
+#greatWork ul {
+  margin-top: 35px !important;
+  margin-bottom: 35px !important;
+}
+#greatWork ul .nav-item .nav-link {
+  background-color: transparent;
+  color: #4b4b4b;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+#greatWork ul .nav-item .nav-link.active {
+  color: #e6ae48;
+}
+
+#footer p {
+  text-align: center;
+  line-height: 145px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=app.css.map */
